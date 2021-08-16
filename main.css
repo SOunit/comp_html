@@ -1,0 +1,14 @@
+.hero-image {
+  position: relative;
+}
+
+.hero-image .button-container {
+  position: absolute;
+  width: 100%;
+  bottom: 1.5rem;
+}
+
+.hero-image .button {
+  display: block;
+  margin: 0 auto;
+}
