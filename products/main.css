@@ -104,3 +104,143 @@
   font-size: 0.5rem;
   text-align: center;
 }
+
+/* for powder_lc.html */
+.item-details {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  padding: 0.8rem 0;
+  width: 80%;
+}
+
+.item-buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cap-block {
+  margin-bottom: 1rem;
+}
+
+.normal-block::before {
+  content: ".";
+  position: absolute;
+  display: block;
+  pointer-events: none;
+  color: rgba(0,0,0,0);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  /* top: 100%;
+  left: 50%; */
+  margin-left: -5px;
+  border-width: 8px 5px 0 5px;
+  border-color: #d0d0d0 transparent transparent transparent;
+}
+
+.product-name {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.product-sub {
+  font-size: 0.6rem;
+  line-height: 0.6rem;
+  font-weight: 0;
+  color: #949494;
+}
+
+.tagline {
+  margin: 2rem 0;
+}
+
+.cap-block {
+  border: 1px solid var(--body-font-color--black);
+  padding: 2rem;
+  padding-bottom: 0;
+  font-size: 0;
+  display: inline-block;
+}
+
+.cap-image {
+  width: 50px;
+}
+
+.cap-desc {
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 0.8rem;
+}
+
+.cap-desc {
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 0.8rem;
+}
+
+.item-desc-box {
+  margin-top: 5rem;
+  background-image: url('../images/comp_powder_lc_a.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  height: 45rem;
+  background-position: right 0 bottom 0;
+}
+
+.item-tagline {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.item-desc {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.item-desc-sub {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.item-component-box {
+  margin-top: 5rem;
+  background-image: url('../images/seibun_powder_lc.png');
+  background-size: auto 80%;
+  background-repeat: no-repeat;
+  /* height: 45rem; */
+  background-position: center;
+  line-height: 2rem;
+}
+
+.choose-pcs {
+  position: relative;
+  width: 50%;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.choose-pcs-cl {
+  position: relative;
+  background-color: transparent;
+  width: 100%;
+  padding: 10px 10px 10px 0;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+.choose-pcs-cl:focus {
+  outline: none;
+  border-bottom: 1px solid;
+}
+
+.output-val {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 0;
+}
