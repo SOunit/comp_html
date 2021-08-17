@@ -38,6 +38,51 @@
           <a href="#">Flavor</a>
           <a href="#">Ice TB</a>
         </section>
+        <section class="item-details">
+          <h2 class="hidden">PRODUCTS DESCRIPTION</h2>
+          <h3 class="product-name">COMP Powder LC</h3>
+          <h4 class="product-sub">Rich milk flavor / made in Japan</h4>
+          <p class="tagline">The birth of COMP's carbohydrate adjustment model.</p>
+          <div class="item-buy">
+            <div class="cap-block">
+              <img class="cap-image" src="../images/pack_lc.png" alt="lc's pack">
+              <p class="cap-desc">PACKS</p>
+              <p class="cap-desc">400kcal</p>
+            </div>
+            <div class="choose-pcs">
+              <select class="choose-pcs-cl" required id="choose-pcs-id">
+                <option value="1" selected>12 PACKS \6500</option>
+                <option value="2">24 PACKS \12000</option>
+                <option value="3">48 PACKS \23000</option>
+                <option value="4">96 PACKS \45000</option>
+              </select>
+            </div>
+            <div><p class="output-val" id="output-val">￥6500（about ￥542 per piece）</p></div>
+            <button class="button">
+              <i class="fas fa-shopping-cart"></i> ADD TO CART
+            </button>
+          </div>
+          <div class="item-desc-box">
+            <h3 class="item-tagline">"The birth of COMP's carbohydrate adjustment model."</h3>
+            <p class="item-desc">Refer to "Japanese Dietary Intake Standards (2020 Edition)" it is a nutritional diet with a carbohydrate adjustment model that customizes the ratio of the three major nutrients PFC.</p>
+            <p class="item-desc">With this update, the flavor has been adjusted to be more mellow and easier to drink.</p>
+            <p class="item-desc">With a rich rich milk flavor, it has a slightly sweet and deep taste.</p>
+            <p class="item-desc">The carbohydrate mass was reduced to just 4.9g per 400kcal, making it even easier to adjust intake.</p>
+            <p class="item-desc">In addition to controlling the fine fatty acid composition of the product, COMP's commitment is packed with the uniquely developed powdered fats and oils and the combination of grape seed extract rich in proanthocyanidins * 1.</p>
+            <p class="item-desc">Of course, the content of dietary fiber, vitamins and minerals per energy is also firmly secured.</p>
+            <p class="item-desc-sub">* 1 A type of polyphenol contained in various plants</p>
+          </div>
+          <div class="item-component-box">
+            <h3 class="item-tagline">Protein/たんぱく質（25g）</h3>
+            <p class="item-desc">Amino acids are continuously supplied from high-quality protein sources such as soy protein, milk protein, and pea protein.</p>
+            <h3 class="item-tagline">Fat/脂質（30.6g）</h3>
+            <p class="item-desc">We have developed original powdered fats and oils for this product and carefully selected fish oil powders. Furthermore, by blending medium-chain fatty acid powder, the ratio of fatty acids such as α-linolenic acid, linoleic acid, caprylic acid, capric acid, docosahexaenoic acid (DHA), and icosapentaenoic acid (EPA) is controlled.</p>
+            <h3 class="item-tagline">Carbohydrate/炭水化物（10.7g）</h3>
+            <p class="item-desc">Carbohydrate (4.9g) This product is designed to have as low a sugar content as possible to facilitate the adjustment of sugar intake according to the dietary style.</p>
+            <p class="item-desc">Dietary fiber (5.8g) We supply abundant dietary fiber from inulin and guar gum decomposition products as water-soluble dietary fiber and from cellulose as insoluble dietary fiber.</p>
+          </div>
+        </section>
+        <!-- from index.html -->
         <section class="products-list">
           <h2 class="hidden">PRODUCTS LIST</h2>
           <div class="items-list clearfix">
@@ -52,7 +97,7 @@
             </button>
           </div>
           <div class="items-list clearfix">
-            <img class="image" src="../images/comp_p2.png" alt="product2">
+            <img class="image" src="../images/comp_p2.png" alt="product1">
             <h3 class="product-name">COMP Powder TB v5.1</h3>
             <p class="desc">A slightly sweet rich milk flavor that is delicious
               even at carb 4.9 g / 400 kcal.</p>
@@ -63,7 +108,7 @@
             </button>
           </div>
           <div class="items-list clearfix">
-            <img class="image" src="../images/comp_p3.png" alt="product3">
+            <img class="image" src="../images/comp_p3.png" alt="product1">
             <h3 class="product-name">COMP Flavor</h3>
             <p class="desc">A slightly sweet rich milk flavor that is delicious
               even at carb 4.9 g / 400 kcal.</p>
@@ -91,6 +136,7 @@
     </div>
 
 
-    <script src="shared.js"></script>
+    <script src="../shared.js"></script>
+    <script src="./value.js"></script>
   </body>
 </html>
