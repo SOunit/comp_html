@@ -1,8 +1,3 @@
-// data [number, quantities, value]
-// const p_val = [["1", 12, 6500],
-//   ["2", 24, 12000], 
-//   ["3", 48, 23000], 
-//   ["4", 96, 45000]];
 const p_val = [{"num":"1", "qty": 12, "value": 6500},
   {"num":"2", "qty": 24, "value": 12000},
   {"num":"3", "qty": 48, "value": 23000},
