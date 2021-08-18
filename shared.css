@@ -20,6 +20,11 @@ body {
   left: 0;
   width: 100%;
   z-index: 10;
+  transition: ease 0.8s;
+}
+
+.header--scrolled {
+  background-color: white;
 }
 
 .header__title {
