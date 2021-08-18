@@ -1,7 +1,7 @@
-const p_val = [{'num':"1", 'qty': 12, 'value': 6500},
-  {'num':"2", 'qty': 24, 'value': 12000},
-  {'num':"3", 'qty': 48, 'value': 23000},
-  {'num':"4", 'qty': 96, 'value': 45000},
+const p_val = [{num:'1', qty: 12, value: 6500},
+  {num:'2', qty: 24, value: 12000},
+  {num:'3', qty: 48, value: 23000},
+  {num:'4', qty: 96, value: 45000},
 ];
 
 const choose_pcs_id = document.getElementById("choose-pcs-id");
