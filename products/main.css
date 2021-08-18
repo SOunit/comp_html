@@ -1,4 +1,4 @@
-.hidden {
+.seo-heading—-hidden {
   display: none;
 }
 
@@ -9,19 +9,20 @@
 } */
 
 .main {
+  margin-top: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.main .nav-bar {
+.main__nav-bar {
   width: 90%;
   display: flex;
   flex-wrap: wrap;
 }
 
-.main .nav-bar a {
+.main__nav-bar a {
   box-sizing: border-box;
   width: 49%;
   text-decoration: none;
@@ -35,11 +36,7 @@
   background-color: #ebecee;
 }
 
-.wrapper {
-  margin-top: 4rem;
-}
-
-.products-list {
+.main__products-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,31 +46,31 @@
   width: 100%;
 }
 
-.items-list {
+.main__items-list {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin: 0.8rem;
   padding: 0.8rem;
-  width: 50%;
+  width: 75%;
   line-height: 1.5;
   background-color: #ebecee;
 }
 
-.items-list .image {
+.main__items-list .main__image {
   width: 50%;
   margin: 20px;
 }
 
-.items-list .product-name {
+.main__items-list .main__product-name {
   font-size: 0.8rem;
   padding: 0;
   margin: 0;
   line-height: 1.5rem;
 }
 
-.items-list .desc {
+.main__items-list .main__desc {
   font-size: 0.8rem;
   padding: 0;
   margin: 0.5rem;
@@ -81,32 +78,21 @@
   line-height: 1.5rem;
 }
 
-.items-list .buy_icon {
-  text-decoration: none;
-  background-color: #000;
-  color: #fff;
-  height: 2rem;
-  line-height: 2rem;
-  font-size: 0.7rem;
-  width: 60%;
-  text-align: center;
-}
-
-.product-note {
+.main__product-note {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.note {
+.main__note {
   width: 80%;
   font-size: 0.5rem;
   text-align: center;
 }
 
 /* for powder_lc.html */
-.item-details {
+.main__item-details {
   display: flex;
   justify-content: center;
   align-items: left;
@@ -116,15 +102,11 @@
   width: 80%;
 }
 
-.item-buy {
+.main__item-buy {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-.cap-block {
-  margin-bottom: 1rem;
 }
 
 .normal-block::before {
@@ -143,7 +125,7 @@
   border-color: #d0d0d0 transparent transparent transparent;
 }
 
-.product-name {
+.main__product-name {
   font-size: 1rem;
   line-height: 1rem;
 }
@@ -159,7 +141,7 @@
   margin: 2rem 0;
 }
 
-.cap-block {
+.main__cap-block {
   border: 1px solid var(--body-font-color--black);
   padding: 2rem;
   padding-bottom: 0;
@@ -167,47 +149,42 @@
   display: inline-block;
 }
 
-.cap-image {
+.main__cap-image {
   width: 50px;
 }
 
-.cap-desc {
+.main__cap-desc {
   font-size: 0.8rem;
   font-weight: bold;
   line-height: 0.8rem;
 }
 
-.cap-desc {
-  font-size: 0.8rem;
-  font-weight: bold;
-  line-height: 0.8rem;
-}
-
-.item-desc-box {
+.main__item-desc-box {
   margin-top: 5rem;
   background-image: url('../images/comp_powder_lc_a.png');
   background-size: 60%;
   background-repeat: no-repeat;
-  height: 45rem;
+  height: 42rem;
   background-position: right 0 bottom 0;
 }
 
-.item-tagline {
+.main__item-tagline {
   font-size: 1rem;
   line-height: 1rem;
 }
 
-.item-desc {
+.main__item-desc {
   font-size: 1rem;
   line-height: 1rem;
 }
 
-.item-desc-sub {
-  font-size: 1rem;
+.main__item-desc-sub {
+  font-size: 0.8rem;
   line-height: 1rem;
+  color: #747474;
 }
 
-.item-component-box {
+.main__item-component-box {
   margin-top: 5rem;
   background-image: url('../images/seibun_powder_lc.png');
   background-size: auto 80%;
@@ -217,14 +194,14 @@
   line-height: 2rem;
 }
 
-.choose-pcs {
+.main__choose-pcs {
   position: relative;
   width: 50%;
   margin: 2rem auto;
   text-align: center;
 }
 
-.choose-pcs-cl {
+.main__choose-pcs-cl {
   position: relative;
   background-color: transparent;
   width: 100%;
@@ -234,13 +211,14 @@
   border-bottom: 1px solid;
 }
 
-.choose-pcs-cl:focus {
+.main__choose-pcs-cl:focus {
   outline: none;
   border-bottom: 1px solid;
 }
 
-.output-val {
+.main__output-val {
   font-weight: bold;
   font-size: 1rem;
   margin-top: 0;
+  margin-bottom: 1rem;
 }
