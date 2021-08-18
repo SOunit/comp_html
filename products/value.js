@@ -10,13 +10,13 @@ const set_val = document.getElementById("output-val");
 
 // initialize
 document.getElementById('output-val').innerHTML = "￥" + p_val[0]['value'].toLocaleString()
-      + "（about ￥" + Math.round(p_val[0]['value']/p_val[0]['qty']) + "per piece）";
+      + "（about ￥" + Math.round(p_val[0]['value']/p_val[0]['qty']) + " per piece）";
 
 choose_pcs_id.addEventListener('change', (e) => {
   for (i=0; i<p_val.length; i++) {
     if (e.target.value === p_val[i]['num']) {
       document.getElementById('output-val').innerHTML = "￥" + p_val[i]['value'].toLocaleString()
-        + "（about ￥" + Math.round(p_val[i]['value']/p_val[i]['qty']) + "per piece）";
+        + "（about ￥" + Math.round(p_val[i]['value']/p_val[i]['qty']) + " per piece）";
     }
   }
 });
