@@ -109,35 +109,19 @@
   flex-direction: column;
 }
 
-.normal-block::before {
-  content: ".";
-  position: absolute;
-  display: block;
-  pointer-events: none;
-  color: rgba(0,0,0,0);
-  width: 0;
-  height: 0;
-  border-style: solid;
-  /* top: 100%;
-  left: 50%; */
-  margin-left: -5px;
-  border-width: 8px 5px 0 5px;
-  border-color: #d0d0d0 transparent transparent transparent;
-}
-
 .main__product-name {
   font-size: 1rem;
   line-height: 1rem;
 }
 
-.product-sub {
+.main__product-sub {
   font-size: 0.6rem;
   line-height: 0.6rem;
   font-weight: 0;
   color: #949494;
 }
 
-.tagline {
+.main__tagline {
   margin: 2rem 0;
 }
 
