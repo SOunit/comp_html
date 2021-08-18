@@ -84,3 +84,30 @@ body {
   text-decoration: none;
   width: 55%;
 }
+
+/* footer start */
+#DIV6 {
+  background-color: white;
+  height: 200px;
+  width: 100%;
+  float: top;
+  text-align: center;
+  overflow-x: scroll;
+  /* add start */
+  font-size: 0.8rem;
+  /* add end */
+}
+
+#DIV7 {
+  background-color: black;
+  height: 430px;
+  width: 100%;
+  float: top;
+  text-align: center;
+  overflow-x: scroll;
+  color: white;
+  /* add start */
+  font-size: 0.8rem;
+  /* add end */
+}
+/* footer end */
